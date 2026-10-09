@@ -1,0 +1,219 @@
+{
+ "kind": "g_uniform",
+ "D": 4,
+ "envelope": {
+  "n_lo": 8,
+  "n_hi": 150,
+  "ell_lo": 0.05,
+  "ell_hi": 3.0
+ },
+ "nodes": [
+  {
+   "N": 150,
+   "ell": 0.05,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.011715668507714438,
+   "fit_rms": 0.004714825899235707
+  },
+  {
+   "N": 150,
+   "ell": 0.13915788418568703,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0051546438182349386,
+   "fit_rms": 0.00158207610140216
+  },
+  {
+   "N": 150,
+   "ell": 0.3872983346207417,
+   "pass": false,
+   "stop": "converged",
+   "e_cert": 0.0006807001869646445,
+   "fit_rms": 0.0024635214762424623
+  },
+  {
+   "N": 150,
+   "ell": 1.0779123358892526,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0011967055705421892,
+   "fit_rms": 0.002323801188421357
+  },
+  {
+   "N": 150,
+   "ell": 3.0,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.02435913011588009,
+   "fit_rms": 0.0010356322147556266
+  },
+  {
+   "N": 17,
+   "ell": 0.05,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.005727615625359728,
+   "fit_rms": 0.005705353147328832
+  },
+  {
+   "N": 17,
+   "ell": 0.13915788418568703,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.014406026548773987,
+   "fit_rms": 0.0013163166450349123
+  },
+  {
+   "N": 17,
+   "ell": 0.3872983346207417,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0023866775337951784,
+   "fit_rms": 0.002533596470750732
+  },
+  {
+   "N": 17,
+   "ell": 1.0779123358892526,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.002760486200782619,
+   "fit_rms": 0.003463621739805256
+  },
+  {
+   "N": 17,
+   "ell": 3.0,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0008653029805097967,
+   "fit_rms": 0.001512040073825676
+  },
+  {
+   "N": 35,
+   "ell": 0.05,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0052794815666628025,
+   "fit_rms": 0.0032462981388998204
+  },
+  {
+   "N": 35,
+   "ell": 0.13915788418568703,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0033459011400681637,
+   "fit_rms": 0.002060645419799467
+  },
+  {
+   "N": 35,
+   "ell": 0.3872983346207417,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0015529298447684026,
+   "fit_rms": 0.0016115398745281083
+  },
+  {
+   "N": 35,
+   "ell": 1.0779123358892526,
+   "pass": false,
+   "stop": "converged",
+   "e_cert": 0.0009550918573874023,
+   "fit_rms": 0.0019603933193492735
+  },
+  {
+   "N": 35,
+   "ell": 3.0,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.004322242687464395,
+   "fit_rms": 0.001212669349502407
+  },
+  {
+   "N": 72,
+   "ell": 0.05,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.00714987983947013,
+   "fit_rms": 0.0030887651153641365
+  },
+  {
+   "N": 72,
+   "ell": 0.13915788418568703,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.007067985628892326,
+   "fit_rms": 0.0023403009839254095
+  },
+  {
+   "N": 72,
+   "ell": 0.3872983346207417,
+   "pass": false,
+   "stop": "converged",
+   "e_cert": 0.0005419825741346251,
+   "fit_rms": 0.0016553109313529391
+  },
+  {
+   "N": 72,
+   "ell": 1.0779123358892526,
+   "pass": false,
+   "stop": "converged",
+   "e_cert": 0.0007315100837831379,
+   "fit_rms": 0.0019082466374693932
+  },
+  {
+   "N": 72,
+   "ell": 3.0,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.012859461359664648,
+   "fit_rms": 0.0011492964434855206
+  },
+  {
+   "N": 8,
+   "ell": 0.05,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.00481696915141494,
+   "fit_rms": 0.0047299169611179255
+  },
+  {
+   "N": 8,
+   "ell": 0.13915788418568703,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.014039876700732368,
+   "fit_rms": 0.0020291214733737196
+  },
+  {
+   "N": 8,
+   "ell": 0.3872983346207417,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.004102774566403067,
+   "fit_rms": 0.0022932016730530603
+  },
+  {
+   "N": 8,
+   "ell": 1.0779123358892526,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0023262677151283384,
+   "fit_rms": 0.0022768487461121696
+  },
+  {
+   "N": 8,
+   "ell": 3.0,
+   "pass": false,
+   "stop": "STALL above floor",
+   "e_cert": 0.0025426213116648277,
+   "fit_rms": 0.0018037617410957218
+  }
+ ],
+ "fit": {
+  "steps": 20000,
+  "lr": 0.001,
+  "M": 8192,
+  "init": "g_info (numerical start only)"
+ },
+ "definition": "p(argmax g*sigma_X) = Uniform(volume) under the reference ensemble; certified by gunif_certify.py at held-out nodes"
+}

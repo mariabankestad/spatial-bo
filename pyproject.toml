@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatialbo"
+version = "0.1.0"
+description = "Spatial weight fields for the exploration term of Gaussian-process Bayesian optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7"]
+tutorial = ["matplotlib>=3.7", "jupyter"]
+
+[tool.setuptools]
+packages = ["spatialbo"]

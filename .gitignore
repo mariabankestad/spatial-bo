@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw per-seed run outputs are distributed as a release asset, not in git
+results/bo_*/
+results/runs/
+plots/out/
+*.log
+.DS_Store

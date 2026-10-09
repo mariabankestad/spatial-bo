@@ -1,0 +1,274 @@
+[
+ {
+  "task": "beale",
+  "group": "suite",
+  "D": 2,
+  "B": 25,
+  "n0": 6,
+  "rounds": 19,
+  "t_early": 8,
+  "x_opt": [
+   0.8333,
+   0.5556
+  ],
+  "h_opt_std": 0.4209,
+  "d_boundary": 0.1667,
+  "d_over_h": 0.833,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "levy2d",
+  "group": "suite",
+  "D": 2,
+  "B": 25,
+  "n0": 6,
+  "rounds": 19,
+  "t_early": 8,
+  "x_opt": [
+   0.55,
+   0.55
+  ],
+  "h_opt_std": 1.0233,
+  "d_boundary": 0.45,
+  "d_over_h": 2.25,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "levy_3d",
+  "group": "suite",
+  "D": 3,
+  "B": 40,
+  "n0": 8,
+  "rounds": 32,
+  "t_early": 10,
+  "x_opt": [
+   0.55,
+   0.55,
+   0.55
+  ],
+  "h_opt_std": 1.2962,
+  "d_boundary": 0.45,
+  "d_over_h": 1.539,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "hartmann_3d",
+  "group": "suite",
+  "D": 3,
+  "B": 40,
+  "n0": 8,
+  "rounds": 32,
+  "t_early": 10,
+  "x_opt": [
+   0.1146,
+   0.5556,
+   0.8525
+  ],
+  "h_opt_std": 3.0546,
+  "d_boundary": 0.1146,
+  "d_over_h": 0.392,
+  "n_wall": 1,
+  "class": "face"
+ },
+ {
+  "task": "styblinski_tang_3d",
+  "group": "suite",
+  "D": 3,
+  "B": 40,
+  "n0": 8,
+  "rounds": 32,
+  "t_early": 10,
+  "x_opt": [
+   0.2096,
+   0.2096,
+   0.2096
+  ],
+  "h_opt_std": 1.8903,
+  "d_boundary": 0.2096,
+  "d_over_h": 0.717,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "hartmann_4d",
+  "group": "suite",
+  "D": 4,
+  "B": 55,
+  "n0": 10,
+  "rounds": 45,
+  "t_early": 12,
+  "x_opt": [
+   0.1874,
+   0.1942,
+   0.5579,
+   0.2648
+  ],
+  "h_opt_std": 3.0731,
+  "d_boundary": 0.1874,
+  "d_over_h": 0.51,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "levy_4d",
+  "group": "suite",
+  "D": 4,
+  "B": 55,
+  "n0": 10,
+  "rounds": 45,
+  "t_early": 12,
+  "x_opt": [
+   0.55,
+   0.55,
+   0.55,
+   0.55
+  ],
+  "h_opt_std": 1.5252,
+  "d_boundary": 0.45,
+  "d_over_h": 1.225,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "michalewicz_5d",
+  "group": "suite",
+  "D": 5,
+  "B": 70,
+  "n0": 12,
+  "rounds": 58,
+  "t_early": 14,
+  "x_opt": [
+   0.7012,
+   0.5,
+   0.409,
+   0.6121,
+   0.5476
+  ],
+  "h_opt_std": 8.0347,
+  "d_boundary": 0.2988,
+  "d_over_h": 0.699,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "hartmann_6d",
+  "group": "stress",
+  "D": 6,
+  "B": 85,
+  "n0": 14,
+  "rounds": 71,
+  "t_early": 16,
+  "x_opt": [
+   0.2017,
+   0.15,
+   0.4769,
+   0.2753,
+   0.3117,
+   0.6573
+  ],
+  "h_opt_std": 7.9311,
+  "d_boundary": 0.15,
+  "d_over_h": 0.315,
+  "n_wall": 2,
+  "class": "edge"
+ },
+ {
+  "task": "branin",
+  "group": "dev",
+  "D": 2,
+  "B": 25,
+  "n0": 6,
+  "rounds": 19,
+  "t_early": 8,
+  "x_opt": [
+   0.9617,
+   0.165
+  ],
+  "h_opt_std": 1.0518,
+  "d_boundary": 0.0383,
+  "d_over_h": 0.192,
+  "n_wall": 1,
+  "class": "face"
+ },
+ {
+  "task": "camel6",
+  "group": "dev",
+  "D": 2,
+  "B": 25,
+  "n0": 6,
+  "rounds": 19,
+  "t_early": 8,
+  "x_opt": [
+   0.485,
+   0.6782
+  ],
+  "h_opt_std": 0.8031,
+  "d_boundary": 0.3218,
+  "d_over_h": 1.609,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "rastrigin_3d",
+  "group": "dev",
+  "D": 3,
+  "B": 40,
+  "n0": 8,
+  "rounds": 32,
+  "t_early": 10,
+  "x_opt": [
+   0.5,
+   0.5,
+   0.5
+  ],
+  "h_opt_std": 3.1514,
+  "d_boundary": 0.5,
+  "d_over_h": 1.71,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "rosenbrock_4d",
+  "group": "dev",
+  "D": 4,
+  "B": 55,
+  "n0": 10,
+  "rounds": 45,
+  "t_early": 12,
+  "x_opt": [
+   0.7441,
+   0.7441,
+   0.7441,
+   0.7441
+  ],
+  "h_opt_std": 1.1971,
+  "d_boundary": 0.2559,
+  "d_over_h": 0.697,
+  "n_wall": 0,
+  "class": "interior"
+ },
+ {
+  "task": "zakharov_5d",
+  "group": "dev",
+  "D": 5,
+  "B": 70,
+  "n0": 12,
+  "rounds": 58,
+  "t_early": 14,
+  "x_opt": [
+   0.3332,
+   0.3332,
+   0.3329,
+   0.3329,
+   0.3332
+  ],
+  "h_opt_std": 0.4837,
+  "d_boundary": 0.3329,
+  "d_over_h": 0.779,
+  "n_wall": 0,
+  "class": "interior"
+ }
+]
